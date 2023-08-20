@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM alpine:3.18
 
 LABEL maintainer="Lei.Lee <web.developer.network@gmail.com>"
 

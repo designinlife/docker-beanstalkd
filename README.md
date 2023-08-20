@@ -11,7 +11,7 @@ services:
   beanstalkd:
     container_name: beanstalkd
     hostname: beanstalkd
-    image: designinlife/beanstalkd:1.12
+    image: designinlife/beanstalkd:1.13
     network_mode: bridge
     entrypoint: ["bootstrap.sh"]
     ports:
